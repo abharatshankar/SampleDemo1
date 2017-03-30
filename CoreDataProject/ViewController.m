@@ -42,6 +42,7 @@
     
     //Step 2
     
+    
     Customers *entity = [NSEntityDescription insertNewObjectForEntityForName:@"Customers" inManagedObjectContext:context];
     
     NSTimeInterval timeInSeconds = [[NSDate date] timeIntervalSince1970]*1000;
